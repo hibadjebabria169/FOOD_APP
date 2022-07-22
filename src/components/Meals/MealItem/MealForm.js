@@ -27,6 +27,7 @@ const MealItemForm = (props) => {
           type: "number",
           step: "1",
           defaultValue: "1",
+          min:"0"
         }}
       />
       <button> Add</button>
